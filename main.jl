@@ -30,7 +30,7 @@ function get_primal_problem_data()
     parameter_dim = 100
     horizon = 50
 
-    (; cost, dynamics, inequality_constraints, state_dim, control_dim, parameter_dim, horizon, A, B)
+    (; state_dim, control_dim, parameter_dim, horizon, A, B)
 end
 
 # TODO: there is probalby a way to set this up with Dito but currently cannot wrap my head around it
